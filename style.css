@@ -369,3 +369,29 @@ td {
   position: relative;
   top: 10px;
 }
+::-webkit-scrollbar{
+  display: none;
+}
+@media screen and (max-width:768px) {
+     .fag{
+      display: none;
+     }
+     .log-in>a{
+      display: none;
+     }
+     .first-section{
+      flex-direction: column;
+      justify-content: center;
+     }
+     .right-s1{
+      margin-top: 20px;
+     }
+     .my-table{
+      flex-direction: column;
+      gap: 10px;
+     }
+     .testmonils{
+      margin: auto;
+     }
+
+}
