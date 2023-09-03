@@ -365,5 +365,7 @@ td {
   font-family: ABeeZee; 
   font-weight: 400;
 }
-
-
+.end-text{
+  position: relative;
+  top: 10px;
+}
